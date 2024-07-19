@@ -2510,7 +2510,7 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "VTN", HidePremium = false, IntroText = "VTN", SaveConfig = true, ConfigFolder = "VTN"})
+local Window = OrionLib:MakeWindow({Name = "VTN", HidePremium = false, IntroText = "VTN", SaveConfig = true, ConfigFolder = "Specialized"})
 
 OrionLib:MakeNotification({
 	Name = "VTN",
