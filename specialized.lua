@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "VTN"
+    local i = "Specialized"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "VTN"
+        local i = "Specialized"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2510,24 +2510,24 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "VTN", HidePremium = false, IntroText = "VTN", SaveConfig = true, ConfigFolder = "Specialized"})
+local Window = OrionLib:MakeWindow({Name = "Specialized", HidePremium = false, IntroText = "Specialized", SaveConfig = true, ConfigFolder = "Specialized"})
 
 OrionLib:MakeNotification({
-	Name = "VTN",
+	Name = "Specialized",
 	Content = "Choose Teams Bro?",
 	Image = "rbxassetid://4483345998",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
-	Name = "VTN",
-	Content = "VTN Not Skidder, Please don't says",
+	Name = "Specialized",
+	Content = "Specialized Not Skidder, Please don't says",
 	Image = "rbxassetid://4483345998",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "VTN",
+    Name = "Specialized",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -2624,7 +2624,7 @@ local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] VTN")
+W:AddLabel("[+] Specialized")
 
 local Section = W:AddSection({
     Name = "Status"
@@ -8334,13 +8334,13 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "VTN(Noitification)",
+                    Name = "Specialized(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
                     Image = "rbxassetid://4483345998",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "VTN(Noitification)",
+                    Name = "Specialized(Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
                     Image = "rbxassetid://4483345998",
                     Time = 9
@@ -8509,7 +8509,7 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "VTN BOT",
+                        Name = "Specialized BOT",
                         Content = "!!You Are Max Point!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
@@ -8658,7 +8658,7 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "VTN",
+                Name = "Specialized",
                 Content = "You not have beli or fragment!",
                 Image = "rbxassetid://4483345998",
                 Time = 5
@@ -8819,7 +8819,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "VTN BOT",
+                            Name = "Specialized BOT",
                             Content = "Not Have Superhuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8832,7 +8832,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "VTN BOT",
+                            Name = "Specialized BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8845,7 +8845,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "VTN BOT",
+                            Name = "Specialized BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8858,7 +8858,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "VTN BOT",
+                            Name = "Specialized BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8869,7 +8869,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "VTN BOT",
+                                    Name = "Specialized BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8881,7 +8881,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "VTN BOT",
+                            Name = "Specialized BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -11280,7 +11280,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "VTN",
+                    Name = "Specialized",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11288,7 +11288,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "VTN",
+                    Name = "Specialized",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11296,7 +11296,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "VTN",
+                    Name = "Specialized",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11304,7 +11304,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "VTN",
+                    Name = "Specialized",
                     Content = "Hop Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
@@ -11317,7 +11317,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "VTN",
+        Name = "Specialized",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://4483345998",
         Time = 5
@@ -11360,7 +11360,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "VTN",
+    Name = "Specialized",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://4483345998",
     Time = 5
