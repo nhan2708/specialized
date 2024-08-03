@@ -2548,7 +2548,7 @@ local M = Window:MakeTab({
 })
 
 local ST = Window:MakeTab({
-    Name = "️ Setting",
+    Name = " Setting",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2578,7 +2578,7 @@ local RA = Window:MakeTab({
 })
 
 local LC = Window:MakeTab({
-    Name = "️ Local Players",
+    Name = " Local Players",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
